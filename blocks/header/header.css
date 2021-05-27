@@ -1,0 +1,8 @@
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1184px;
+  /* height: 52px; */
+  /* background-color: green; */
+}

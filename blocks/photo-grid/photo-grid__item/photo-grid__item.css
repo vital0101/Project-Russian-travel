@@ -1,0 +1,6 @@
+.photo-grid__item {
+  /* object-fit: cover; */
+  width: 284px;
+  height: 213px;
+  /* border: 1px solid green; */
+}

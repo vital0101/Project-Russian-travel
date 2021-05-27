@@ -5,101 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествие по России</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
     <section class="page">
       <header class="header">
-        <div class="header__logo"></div>
-        <ul class="header__lang-link">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
+        <img class="header__logo" src="./images/header-logo.svg" alt="" />
+        <a class="header__lang-link header__lang-link_ru" href="#">RU</a>
+        <a class="header__lang-link header__lang-link_en" href="#">EN</a>
       </header>
-      <section class="lead">
-        <h1 class="lead__title"></h1>
-        <p class="lead__subtitle"></p>
-        <img class="lead__image" src="" alt="" />
-        <p class="lead__caption"></p>
-      </section>
-      <section class="intro">
-        <h2 class="intro__title"></h2>
-        <p class="intro__text"></p>
-        <ul class="intro__list">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </section>
-      <section class="photo-grid">
-        <div class="photo_grid__item">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </section>
-      <section class="places">
-        <div class="place">
-          <h2 class="place__title"></h2>
-          <img src="" alt="" class="place__image" />
-          <a href="#" class="place__website"></a>
-          <p class="place__paragraph"></p>
-          <p class="place__paragraph"></p>
-        </div>
-        <div class="place">
-          <h2 class="place__title"></h2>
-          <img src="" alt="" class="place__image" />
-          <a href="#" class="place__website"></a>
-          <p class="place__paragraph"></p>
-          <p class="place__paragraph"></p>
-        </div>
-        <div class="place">
-          <h2 class="place__title"></h2>
-          <img src="" alt="" class="place__image" />
-          <a href="#" class="place__website"></a>
-          <p class="place__paragraph"></p>
-          <p class="place__paragraph"></p>
-        </div>
-        <div class="place">
-          <h2 class="place__title"></h2>
-          <img src="" alt="" class="place__image" />
-          <a href="#" class="place__website"></a>
-          <p class="place__paragraph"></p>
-          <p class="place__paragraph"></p>
-        </div>
-        <div class="place">
-          <h2 class="place__title"></h2>
-          <img src="" alt="" class="place__image" />
-          <a href="#" class="place__website"></a>
-          <p class="place__paragraph"></p>
-          <p class="place__paragraph"></p>
-        </div>
-      </section>
-      <section class="cover">
-        <h2 class="cover__title"></h2>
-        <p class="cover__subtitle"></p>
-        <img src="" alt="" class="cover__overlay" />
-        <img src="" alt="" class="cover__background" />
-      </section>
+      <main class="content">
+        <section class="lead">
+          <h1 class="lead__title">Путешествия<br />по России</h1>
+          <p class="lead__subtitle">
+            Настоящая страна не в выпусках<br />новостей, а здесь.
+          </p>
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="" />
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </section>
+        <section class="intro">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+            дома, не видели? На самом деле, Россия — это целая вселенная с
+            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+            стране. Мы выбрали и описали некоторые интересные места, достойные
+            вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li>Часовых поясов 11</li>
+            <li>Объектов природного наследия ЮНЕСКО 12</li>
+            <li>Объектов культурного наследия ЮНЕСКО 16</li>
+            <li>Объектов культурного наследия ЮНЕСКО 16</li>
+            <li>Природных заповедников 105</li>
+            <li>Аэропортов 241</li>
+          </ul>
+        </section>
+        <section class="photo-grid">
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-arisa.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-atharva-tulsi.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-baikal-2.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-baikal.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-elbrus.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-ergaki.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-kamchatka-1.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-kamchatka-2.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-kondratiev.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-sochi.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-train.jpg"
+            alt=""
+          />
+          <img
+            class="photo-grid__item"
+            src="./images/photo-grid-tuman.jpg"
+            alt=""
+          />
+        </section>
+        <section class="places">
+          <div class="place">
+            <h2 class="place__title">Куршская коса</h2>
+            <img
+              src="./images/photo-grid-arisa.jpg"
+              alt=""
+              class="place__image"
+            />
+            <section class="place__website">
+              <p class="place__website_url-heading">URL</p>
+              <a href="" class="place__website_link">park-kosa.ru</a>
+            </section>
+            <p class="place__paragraph">
+              Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
+              горизонта — спокойного Куршского залива с одной стороны и
+              подёрнутого рябью волн Балтийского моря с другой. Уникальная
+              природная зона на краю российского анклава.
+            </p>
+            <p class="place__paragraph">
+              На этом Калининградская область не заканчивается. Для
+              путешественника и исследователя там же по соседству — самая
+              западная точка России, Балтийская коса, — и немецкое наследие
+              россыпи небольших приморских городов. Атмосфера здешних мест
+              исключает суету, окуная в спокойствие природы и запах стального,
+              прохладного моря.
+            </p>
+          </div>
+          <div class="place">
+            <h2 class="place__title"></h2>
+            <img src="" alt="" class="place__image" />
+            <a href="#" class="place__website"></a>
+            <p class="place__paragraph"></p>
+            <p class="place__paragraph"></p>
+          </div>
+          <div class="place">
+            <h2 class="place__title"></h2>
+            <img src="" alt="" class="place__image" />
+            <a href="#" class="place__website"></a>
+            <p class="place__paragraph"></p>
+            <p class="place__paragraph"></p>
+          </div>
+          <div class="place">
+            <h2 class="place__title"></h2>
+            <img src="" alt="" class="place__image" />
+            <a href="#" class="place__website"></a>
+            <p class="place__paragraph"></p>
+            <p class="place__paragraph"></p>
+          </div>
+          <div class="place">
+            <h2 class="place__title"></h2>
+            <img src="" alt="" class="place__image" />
+            <a href="#" class="place__website"></a>
+            <p class="place__paragraph"></p>
+            <p class="place__paragraph"></p>
+          </div>
+        </section>
+        <section class="cover">
+          <h2 class="cover__title"></h2>
+          <p class="cover__subtitle"></p>
+          <img src="" alt="" class="cover__overlay" />
+          <img src="" alt="" class="cover__background" />
+        </section>
+      </main>
       <footer class="footer">
-        <ul class="footer__link">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-        <div class="footer__copyright"></div>
+        <nav class="footer__links">
+          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <a class="footer__link" href="https://calendar.yandex.ru"
+            >Календарь</a
+          >
+          <a class="footer__link" href="https://travel.yandex.ru"
+            >Путешествия</a
+          >
+        </nav>
+        <div class="footer__copyright">© 2020. Виталий Васькин</div>
       </footer>
     </section>
   </body>
