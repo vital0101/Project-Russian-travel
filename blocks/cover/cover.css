@@ -1,10 +1,11 @@
 .cover {
-  display: flex;
+  /* display: flex; */
   margin: 0 auto 92px;
   width: 1184px;
-  height: 740px;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  border: 1px solid green;
-  cursor: pointer;
+  /* height: 740px; */
+  /* background-image: url(../../images/cover-trains.jpg); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* border: 1px solid green; */
+  /* cursor: pointer; */
 }
