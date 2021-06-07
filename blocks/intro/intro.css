@@ -1,6 +1,7 @@
 .intro {
-  padding: 92px 0px 0px;
+  /* padding: 92px 0px 0px; */
   margin-left: 148px;
+  margin-bottom: 92px;
   width: 690px;
   border: 1px solid red;
 }

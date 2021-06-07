@@ -1,6 +1,6 @@
 .page {
   margin: 0 auto;
-  width: 1280px;
+  min-width: 1280px;
   background: #2a2c2f;
   padding: 28px 48px 24px;
 }

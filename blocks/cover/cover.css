@@ -1,14 +1,10 @@
 .cover {
-  margin: 92px auto;
+  display: flex;
+  margin: 0 auto 92px;
   width: 1184px;
   height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  opacity: 0.3;
   border: 1px solid green;
-}
-
-.cover:hover {
-  background: #2a2c2f;
-  opacity: 0.8;
+  cursor: pointer;
 }

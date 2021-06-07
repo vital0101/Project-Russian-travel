@@ -7,4 +7,9 @@
   width: 984px;
   /* height: 660px; */
   border: 1px solid red;
+  margin-bottom: 80px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
 }
