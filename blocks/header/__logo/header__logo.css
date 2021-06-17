@@ -1,0 +1,9 @@
+.header__logo {
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    height: 42px;
+  }
+}

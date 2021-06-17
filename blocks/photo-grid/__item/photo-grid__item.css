@@ -1,6 +1,21 @@
 .photo-grid__item {
-  /* object-fit: cover; */
   width: 284px;
-  height: 213px;
-  /* border: 1px solid green; */
+}
+
+@media (max-width: 1279px) {
+  .photo-grid__item {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-grid__item {
+    width: 352px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid__item {
+    width: 288px;
+  }
 }

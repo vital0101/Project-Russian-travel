@@ -1,5 +1,13 @@
 .header__lang-link_ru {
-  margin-left: auto;
   padding-right: 18px;
-  align-self: flex-end;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .header__lang-link_ru {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

@@ -7,3 +7,32 @@
   /* or 29px */
   color: #ffffff;
 }
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1279px) {
+  .place__paragraph {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place__paragraph {
+    column-gap: 28px;
+    grid-template-columns: 340px 1fr;
+    margin-bottom: 73px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__paragraph {
+    margin-bottom: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+}

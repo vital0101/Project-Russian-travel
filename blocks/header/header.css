@@ -1,8 +1,23 @@
 .header {
-  margin: auto;
+  width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
-  min-width: 1184px;
-  /* height: 52px; */
-  /* background-color: green; */
+}
+
+@media (max-width: 1279px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    width: calc(100% - 32px);
+  }
 }
