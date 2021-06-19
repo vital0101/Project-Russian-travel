@@ -1,20 +1,18 @@
 .header__lang-link {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-decoration: none;
-  align-self: flex-end;
   font-style: normal;
   font-weight: normal;
+  color: #ffffff;
   font-size: 24px;
   line-height: 28px;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 767px) {
-  .header__lang-link_en {
-    font-style: normal;
-    font-weight: normal;
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }
